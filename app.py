@@ -20,7 +20,7 @@ class Portfolio (db.Model) :
 # creating the schema for the class 
 class PortfolioSchema(ma.Schema): 
     class Meta:
-        fields = ('title', 'content')
+        fields = ('id' , 'title', 'content')
         
 
 portfolio_schema = PortfolioSchema()
